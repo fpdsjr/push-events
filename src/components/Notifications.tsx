@@ -44,8 +44,6 @@ export default function Notifications() {
     setResult(result);
 
     if (result === "granted") {
-      console.log("test");
-
       await registration.showNotification("Hello World", {
         body: "My first notification on iOS",
       });
