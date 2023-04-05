@@ -8,7 +8,7 @@ export default function App({ Component, pageProps }: AppProps) {
   const router = useRouter();
 
   useEffect(() => {
-    ReactGA.initialize("UA-000000-01");
+    ReactGA.initialize("G-BJBVE01M5K");
     ReactGA.pageview(window.location.pathname + window.location.search);
   }, []);
 
